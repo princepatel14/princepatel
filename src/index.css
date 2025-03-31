@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+.dark {
+  @apply bg-[#1e1e1e] text-white;
+}
+
+.light {
+  @apply bg-white text-black;
+}
+
+.monokai {
+  @apply bg-[#272822] text-[#f8f8f2];
+}
+
+.dracula {
+  @apply bg-[#282a36] text-[#f8f8f2];
+}
+
+.night-owl {
+  @apply bg-[#011627] text-[#d6deeb];
+}
+
+.fira-code {
+  font-family: 'Fira Code', monospace;
+}
+
+.consolas {
+  font-family: Consolas, monospace;
+}
+
+.jetbrains-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.typing-effect {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
