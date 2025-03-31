@@ -16,9 +16,9 @@ function App() {
         <Editor />
       </div>
       <StatusBar />
-      {showNotification && (
+      {/* {showNotification && (
         <Notification onClose={() => setShowNotification(false)} />
-      )}
+      )} */}
     </div>
   );
 }
