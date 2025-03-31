@@ -7,9 +7,9 @@ import {
   ChevronDown,
   Github,
   Linkedin,
-  Globe,
+  // Globe,
   Star,
-  MessageSquare,
+  // MessageSquare,
   AlertCircle,
   CheckCircle2,
   Heart,
@@ -175,12 +175,12 @@ const socialLinks = [
     url: "https://leetcode.com/u/princepatel1/",
     color: "#FF9900",
   },
-  {
-    icon: Globe,
-    name: "Portfolio",
-    url: "https://johndoe.dev",
-    color: "#e34c26",
-  },
+  // {
+  //   icon: Globe,
+  //   name: "Portfolio",
+  //   url: "https://johndoe.dev",
+  //   color: "#e34c26",
+  // },
 ];
 
 export const Sidebar: React.FC = () => {
@@ -467,13 +467,13 @@ export const experiences = [\n${experiences
     if (activeItem.id === "projects") {
       return (
         <div className="space-y-4">
-          <div className="flex items-center justify-between px-4 py-2 bg-[#252526]">
+          {/* <div className="flex items-center justify-between px-4 py-2 bg-[#252526]">
             <input
               type="text"
               placeholder="Search Extensions in Marketplace..."
               className="w-full bg-[#3c3c3c] text-white px-3 py-1 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#007acc]"
             />
-          </div>
+          </div> */}
 
           <div
             className="flex items-center justify-between px-4 py-2 bg-[#252526] cursor-pointer hover:bg-[#2d2d2d]"
