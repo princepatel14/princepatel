@@ -66,37 +66,7 @@ const sidebarItems = [
     label: "Projects",
     sections: {
       completed: [
-        {
-          id: "project1",
-          type: "project",
-          content: {
-            icon: School,
-            title: "School Management System",
-            description:
-              "A powerful and useful school management system for teachers and students and all the admin staff to manage their school.",
-            // version: "2.1.0",
-            publisher: "Prince Patel",
-            stats: {
-              rating: "4.8",
-            },
-            technologies: ["django", "postgres"],
-            features: [
-              "Role-based access control with three user types: **Admin**, **Teacher**, and **Student**.",
-              "**Admin Panel** for managing users, classes, and academic records.",
-              "**Teacher Portal** for assigning homework, marking attendance, and tracking student progress.",
-              "**Student Dashboard** to access schedules, assignments, and performance reports.",
-              "Automated **Timetable Management** system for efficient class scheduling.",
-              "Real-time **Notice Board** for sharing important updates with users.",
-              "Secure **Login System** with authentication and authorization for data protection.",
-              "Responsive UI ensuring a seamless experience across desktop and mobile devices.",
-              "Database powered by **PostgreSQL** for efficient data storage and management.",
-              "Built using **Django**, ensuring scalability and robust performance.",
-            ],
-            // repository: "https://github.com/johndoe/react-snippets-pro",
-          },
-        },
-      ],
-      ongoing: [
+        
         {
           id: "project2",
           type: "project",
@@ -126,6 +96,37 @@ const sidebarItems = [
               "Modern UI design using **React** for a smooth and interactive experience.",
             ],
             // repository: "https://github.com/johndoe/theme-creator",
+          },
+        },
+      ],
+      ongoing: [
+        {
+          id: "project1",
+          type: "project",
+          content: {
+            icon: School,
+            title: "School Management System",
+            description:
+              "A powerful and useful school management system for teachers and students and all the admin staff to manage their school.",
+            // version: "2.1.0",
+            publisher: "Prince Patel",
+            stats: {
+              rating: "4.8",
+            },
+            technologies: ["django", "postgres"],
+            features: [
+              "Role-based access control with three user types: **Admin**, **Teacher**, and **Student**.",
+              "**Admin Panel** for managing users, classes, and academic records.",
+              "**Teacher Portal** for assigning homework, marking attendance, and tracking student progress.",
+              "**Student Dashboard** to access schedules, assignments, and performance reports.",
+              "Automated **Timetable Management** system for efficient class scheduling.",
+              "Real-time **Notice Board** for sharing important updates with users.",
+              "Secure **Login System** with authentication and authorization for data protection.",
+              "Responsive UI ensuring a seamless experience across desktop and mobile devices.",
+              "Database powered by **PostgreSQL** for efficient data storage and management.",
+              "Built using **Django**, ensuring scalability and robust performance.",
+            ],
+            // repository: "https://github.com/johndoe/react-snippets-pro",
           },
         },
       ],
